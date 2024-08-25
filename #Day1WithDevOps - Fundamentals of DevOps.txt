@@ -1,0 +1,83 @@
+#Day1WithDevOps - Fundamentals of DevOps
+
+What is DevOps Lifecycle? | How to manage yours - Cuelogic An LTI Company
+
+Question---What is DevOps?
+
+DevOps is a culture that enhances an organization's ability to deliver applications quickly and efficiently.
+
+It bridges the gap between development and operations teams, ensuring seamless collaboration and automation.
+
+For instance, consider a scenario where a security vulnerability is discovered in a popular mobile app, allowing hackers to access user data. In a traditional setup, it might take the organization 10 days to release a patch. However, with DevOps, the same update can be delivered in just 2-3 days or even hours, ensuring timely protection for users.
+
+Real-life example:
+
+In 2020, a critical vulnerability was discovered in the Zoom video conferencing app, allowing hackers to access user cameras and microphones. DevOps teams worked swiftly to release a patch, ensuring user safety and security within hours.
+How Zoom Tackled the Vulnerability
+
+When the vulnerability was discovered, Zoom took swift action:
+
+Step 1: Acknowledgement: Zoom acknowledged the vulnerability and informed users.
+
+Step 2: Investigation: They investigated the root cause of the vulnerability.
+
+Step 3: Patch Development: Rapidly developed and tested a patch.
+
+Step 4: Deployment: Then deployed the patch and requested users to update.
+
+Step 5: Communication: Also they kept users regularly updated and addressed their concerns.
+
+With DevOps: Zoom leveraged DevOps tools like continuous integration, continuous delivery, and continuous monitoring to develop and deploy the patch quickly.
+
+Result: Zoom's DevOps practices enabled rapid patch development and deployment, ensuring timely protection for users.
+
+**
+Is DevOps only about delivery?**
+
+No, DevOps is not just about delivery. It encompasses a broader scope, including:
+
+Automation: Streamlining processes to minimize manual intervention
+
+Maintaining code quality: Ensuring high-quality code through continuous testing and review
+
+Monitoring: Real-time monitoring to identify and resolve issues promptly
+
+Testing: Continuous testing to guarantee reliability and performance
+
+DevOps is a process of improving application delivery by ensuring proper automation with maintaining code quality, continuous monitoring, and ongoing testing.
+
+Example:
+
+Imagine a chips factory where you want to ensure timely delivery while maintaining quality. DevOps helps achieve this by:
+
+Automating production lines to reduce manual errors
+
+Continuously testing and reviewing recipes to guarantee flavor and texture
+
+Monitoring temperature and humidity levels to prevent spoilage
+
+Conducting regular quality control checks to ensure consistency
+
+The ultimate goal is to minimize manual intervention.
+
+Question---Why DevOps?
+
+Before DevOps:
+
+10 years ago, moving an application from development to delivery took around 10 days of manual work. Many people were involved:
+
+System administrators created servers
+
+Build and release engineers built and prepared applications
+
+Server admins deployed applications
+
+The Problem:
+
+Manual work took a long time and was prone to errors.
+
+Enter DevOps : DevOps automated the process, making deployment faster and more efficient.
+
+Now : Deployment takes just minutes or hours, not days!
+
+Leaders in DevOps : Companies like Netflix and Amazon Web Services have shown the power of DevOps in revolutionizing deployment processes.
