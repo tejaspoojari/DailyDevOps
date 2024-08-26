@@ -1,0 +1,138 @@
+Question---What is SDLC? Why is it essential to understand SDLC?
+
+Everyone involved in the software development process, including designers, developers, testers, and project managers, needs to comprehend SDLC. This is because every organization follows a standardized SDLC to ensure efficient project execution, improved communication, and reduced errors.
+
+Question---What is SDLC?
+
+SDLC is a standardized process adopted by the software industry to design, develop, and test high-quality products. It encompasses three high-level phases:
+
+Design: Planning and designing the product's architecture and user experience.
+
+Development: Building and coding the product.
+
+Testing: Verifying and validating the product's quality and functionality.
+
+End Goal of SDLC
+
+The ultimate objective of SDLC is to deliver a high-quality product that meets customer requirements, is reliable, stable, and scalable, and provides a positive user experience.
+
+Benefits of SDLC
+
+Improved project management and planning
+
+Enhanced communication among team members
+
+Reduced errors and bugs
+
+Increased productivity and efficiency
+
+Better alignment with customer requirements
+
+Higher quality products
+
+By understanding SDLC, individuals involved in software development can work together effectively, ensure a smooth project execution, and ultimately deliver a high-quality product that meets customer needs.
+
+Question---What are the phases of SDLC
+
+While the three high-level phases are design, development, and testing, we can deep dive into other phases in SDLC.
+
+
+Planning:
+
+Collect customer feedback, suggestions, and requirements.
+
+Identify project scope, goals, and deliverables.
+
+Define project timelines, resources, and budget.
+
+Create a project roadmap and timeline.
+
+Defining:
+
+Document detailed requirements and specifications (e.g., SRE).
+
+Create a project plan, including milestones and deliverables.
+
+Establish project governance and decision-making processes.
+
+Designing:
+
+High-Level Design:
+
+Architects and team leads decide on:
+
+Infrastructure (e.g., cloud, on-premises, hybrid).
+
+Replication strategies (e.g., data backup, redundancy).
+
+Database types (e.g., relational, NoSQL).
+
+Low-Level Design:
+
+Modules and components are defined.
+
+Suitable programming languages and frameworks are chosen.
+
+Data flow and interfaces are designed.
+
+Build:
+
+Code development and implementation.
+
+Creation of a common repository (e.g., GIT) for version control.
+
+Integration of third-party libraries and services.
+
+Test:
+
+Code testing on virtual servers to detect bugs and issues.
+
+Ensuring compatibility across different environments and platforms.
+
+Performance, security, and usability testing.
+
+Deploy:
+
+Deploying tested code to production servers.
+
+Configuring and setting up production environments.
+
+Monitoring and logging for ongoing maintenance.
+
+These phases provide a comprehensive framework for software development, ensuring a structured approach to delivering high-quality products.
+
+DevOps Engineer's Role
+
+DevOps engineers automate the build, test, and deploy phases, minimizing human intervention and ensuring efficient deployment.
+
+Question---What is Agile Methodology?
+
+Agile is a widely adopted SDLC model that emphasizes repetition and continuous improvement. It involves:
+
+Iterative development
+
+Continuous testing and feedback
+
+Flexible planning and adaptation to change
+
+Collaborative team effort
+
+Example:
+
+Suppose we have an e-commerce website, (link unavailable), that needs to add a kids' category based on customer feedback. The SDLC process would involve:
+
+Planning: Gathering customer feedback and identifying requirements.
+
+Defining: Documenting requirements and creating a project plan.
+
+Designing: Deciding on infrastructure, databases, and programming languages.
+
+Build: Developing code and creating a common repository.
+
+Test: Testing code on virtual servers.
+
+Deploy: Deploying tested code to production servers.
+
+A DevOps engineer would automate the build, test, and deploy phases, ensuring efficient and fast deployment.
+
+This explanation provides a comprehensive overview of SDLC, its phases, and the role of DevOps engineers. It also touches on the Agile methodology, providing a clear understanding of the software development process.
