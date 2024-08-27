@@ -1,0 +1,111 @@
+Question---What are Virtual Machines?
+
+Imagine owning a 1-acre property with a built-up house, park, and amenities still you feel you have left half an acre vacant. You decide to build another property by renting out half acre land with similar facilities. Both properties have their own resources, living independently. This scenario reflects the DevOps concept, where resources are utilized efficiently.
+
+Question---What is a Server?
+
+A server is a powerful computer that stores, manages, and provides access to data, applications, or services over a network. It acts as a central repository, allowing multiple users to access and utilize resources remotely.
+
+Example:
+
+If you have an application on your laptop and want to share it with customers, your laptop can act as a server, but typically, a server is a dedicated machine designed to handle heavy loads, ensure high availability, and provide reliable access to resources.
+
+Sharing an Application from Your Laptop:
+
+Configure your laptop as a server
+
+Enable remote access (RDP, VPN, web-based)
+
+Share the application (file sharing, web-based, remote hosting)
+
+Provide access credentials
+
+Ensure security
+
+Note: Sharing an application from your laptop is not a scalable or reliable solution for large-scale deployments. Dedicated servers are typically used for commercial applications to ensure high availability, performance, and security.
+
+Alternative Options:
+
+Cloud hosting services (e.g., AWS, Azure, Google Cloud)
+
+Virtual Private Servers (VPS)
+
+Dedicated servers
+
+Application hosting platforms (e.g., Heroku, App Engine)
+
+Question---Virtual Machines in Real-World Scenarios
+
+Consider purchasing a 100 GB server from HP. Instead of utilizing the entire capacity, you distribute 5 servers to your teams, each with 10 GB, leaving 50 GB unused. This inefficiency can be overcome using virtualization.
+
+Question---What is Virtualization?
+
+Virtualization is a technology that creates multiple virtual machines (VMs) on a single physical server. A hypervisor, a specialized software, is installed to:
+
+Create logical isolation on the physical machine.
+
+Break down the physical machine into logical VMs.
+
+Basically you are creating virtual environments that function as virtual computer computer systems which have their own CPU, memory and hardware.
+
+Some popular hypervisors include VMware, Xen, and Hyper-V.
+
+Question---How Virtualization Works
+
+With virtualization, you:
+
+Install a hypervisor on the physical server.
+
+Create multiple VMs, each with its own:
+
+CPU
+
+Memory
+
+Hardware
+
+Assign VMs to teams or applications, ensuring independence and efficiency.
+
+Example: Amazon Data Center
+
+Amazon has a Mumbai data center with a rack of 100 servers, each with 10,000 GB RAM. As a user, you request 10 GB RAM and 10 CPUs. Amazon's system finds an available 100th server with sufficient resources and signals the hypervisor to create a VM with 10 GB RAM and 10 CPUs, and in return it sends ip address and sufficient information to access the resources, ensuring efficient resource utilization.
+
+Importance of Automation -
+
+Suppose you have to create 100 ec2 instances in one from AWS, but to do with manual effort its time consuming, hence in order to keep efffiency and automation intakt.
+
+Developers of Amazon have exposed API's of their services. Here we will request EC2 API to create 100 Ec2 instances by writing a single script using AWS CLI.
+
+This Api will take the request and if it validated, authenticated and authorized it will respond with 100 Ec2 instances in one shot.
+
+Also instead of AWS cli you can use AWS API, AWS CFT, terraform or AWS CDK.
+
+It depends on requirements of organization as to which tool to be used,
+
+If your organization is dedicately using AWS, it would prefer AWS CDK over terraform as it would get initial updates of new API services. Where some organization prefers for Hybrid Cloud Platform, they prefer GCP for AI, ML and AWS for RDS, here it would be better if you use terraform as you can create infrastructure cross platform.
+
+Importance of Automation
+
+Manual effort can be time-consuming and inefficient. For instance, creating 100 EC2 instances in AWS manually would be a tedious task.
+
+Solution: Automation through APIs
+
+Amazon's developers have exposed APIs for their services, enabling automation. By writing a single script using AWS CLI, AWS API, AWS CFT, Terraform, or AWS CDK, you can request the EC2 API to create 100 EC2 instances instantly.
+
+Workflow:
+
+Request EC2 API to create 100 EC2 instances
+
+API validates, authenticates, and authorizes the request
+
+Responds with 100 EC2 instances created
+
+Choosing the Right Tool:
+
+AWS CDK: Ideal for organizations dedicated to AWS, providing early access to new API services.
+
+Terraform: Suitable for hybrid cloud platforms, allowing cross-platform infrastructure creation.
+
+AWS CLI, AWS API, AWS CFT: Choose based on organizational requirements.
+
+By automating tasks, you can increase efficiency, reduce errors, and save time.
